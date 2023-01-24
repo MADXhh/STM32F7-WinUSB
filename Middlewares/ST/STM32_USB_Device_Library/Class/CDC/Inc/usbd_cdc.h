@@ -84,6 +84,9 @@ extern "C" {
 #define CDC_SET_CONTROL_LINE_STATE                  0x22U
 #define CDC_SEND_BREAK                              0x23U
 
+// WinUSB
+#define USB_CDC_WINUSB_CONFIG_DESC_SIZ              0x20U // size 32
+
 /**
   * @}
   */
